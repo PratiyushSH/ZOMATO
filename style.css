@@ -1,0 +1,179 @@
+/* Common Elements  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hr1{
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    
+}
+
+.subtitle1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+
+    
+}
+
+.subtitle2{
+    font-family: 'Lobster', cursive;
+    color: rgb(248, 248, 248);
+    font-size: 45px;
+    text-align: center;
+}
+/* logo */
+
+#logo{
+    width: 15%;
+ 
+
+}
+    
+   
+
+#navbar{
+    display: flex;
+    background-color: rgb(50, 49, 49);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+#logoimg{
+    height: 55px;
+    margin: 10px 40px;
+    border-radius: 22px;
+    align-items: center;
+}
+
+/* navigation links */
+
+#navlinks{
+    width: 70%;
+   
+    
+
+
+
+   
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.linkitems{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.linka:hover{
+    background-color: azure;
+    color: red;
+    transition: 1s;
+}
+
+.currentpage{
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+/* Social Media Links  */
+
+#socialmedia{
+    /* margin-left: 20px ; */
+    /* text-align: center; */
+    margin: auto;
+
+
+}
+
+#socialmedia img{
+    border-radius: 10px;
+}
+
+#socialmedia img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 26px 0px rgb(244, 244, 246);
+    transition: 1s;
+}
+
+/* Navigation Bar Css Ends  */
+
+/* Home Content Css Starts Here */
+
+#homecontent{
+    height: 700px;
+    background-image: url(platter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+
+}
+
+
+
+/* Home Content Css Ends Here */
+
+
+/* Facilities Css Starts */
+
+#facilities{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    background-color: rgb(81, 35, 35);
+    
+
+
+}
+
+
+/* Facilities Css Ends */
+
+
+
+
+/* Footer Css */
+
+#Footer{
+    display: flex;
+    background-color: rgb(50, 49, 49);
+    height: 50px;
+    /* align-items: center; */
+    line-height: 60px; 
+    font-family: 'Abril Fatface', cursive;
+    justify-content: center;
+    color: white;
+}
+
+}
